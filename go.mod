@@ -1,3 +1,3 @@
-module github.com/denpeshkov/go-template
+module github.com/denpeshkov/grind
 
 go 1.23
