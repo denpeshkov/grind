@@ -71,8 +71,6 @@ func TestUnionFind(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(fmt.Sprintf("n=%d", tt.n), func(t *testing.T) {
-			t.Parallel()
-
 			uft := newUf(tt.n)
 			uf := New(tt.n)
 			for _, u := range tt.u {
