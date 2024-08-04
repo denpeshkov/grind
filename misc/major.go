@@ -9,7 +9,7 @@ import (
 // It is a streaming algorithm requiring only a single pass through the iterator.
 // It uses Boyer–Moore majority vote streaming algorithm.
 //
-// Time: O(N)
+// Time: O(n)
 // Space: O(1)
 func FindMajor[T comparable](seq iter.Seq[T]) T {
 	var (
